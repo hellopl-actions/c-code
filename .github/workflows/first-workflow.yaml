@@ -11,3 +11,11 @@ jobs:
               run: |
                 node -v
                 npm -v
+    dependajob:
+        runs-on: ubuntu-latest
+        needs: run-shell-commands
+        steps:
+            - name: some_echo
+              run: echo "so fasttt"
+            - name: errrrror step
+              run: nocommandhere
