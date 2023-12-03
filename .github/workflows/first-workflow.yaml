@@ -20,5 +20,3 @@ jobs:
         steps:
             - name: some_echo
               run: echo "so fasttt"
-            - name: errrrror step
-              run: nocommandhere
